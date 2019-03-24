@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    return "<a href='/spanish-inquisition'>I did not expect the Spanish Inquisition</a>"
+    return "<a href='/spanish-inquisition'>I didn't expect the Spanish Inquisition</a>"
 
 @app.route("/spanish-inquisition")
 def spanish_inquisition():
